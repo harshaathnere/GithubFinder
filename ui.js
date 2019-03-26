@@ -33,6 +33,7 @@ class UI {
     showRepos(repos) {
        let output = '';
         repos.forEach (function (repo) {
+          console.log('repo')
         output += ` 
               <div class = " card card-body mb-2">
             <div class = "row">
